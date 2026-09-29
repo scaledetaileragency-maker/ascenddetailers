@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { toast } from "sonner";
 import heroPorsche from "@/assets/hero-porsche.jpg";
-import textureChrome from "@/assets/texture-chrome.jpg";
+
 import { Eyebrow, PHONE, Reveal, Section, TEL, EMAIL, IG, IgLink, IgRow } from "./shared";
 
 const FORM_URL = "https://script.google.com/macros/s/AKfycbzTJL4WH1RPF0LHrsbk33NqiH-jj_SBlZFUN2F8jH0JxRs860PDEmGB6k24m71KQgU0/exec";

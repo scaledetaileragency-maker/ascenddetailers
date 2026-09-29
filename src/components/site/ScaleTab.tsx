@@ -1,7 +1,7 @@
-
-
-import { Eyebrow, PHONE, Reveal, Section, TEL, IG, IgLink, IgRow } from "./shared";
-
+import { useState, type FormEvent } from "react";
+import { toast } from "sonner";
+import scaleLogo from "@/assets/logo-scaleceramics.png";
+import { Eyebrow, PHONE, Reveal, Section, TEL, IG, IgLink } from "./shared";
 const steps = [
   { n: "01", t: "Ads", d: "Ceramic-intent ads run to your 30-mile territory. No shared leads, ever." },
   { n: "02", t: "AI Booking", d: "Our AI setter replies in 8 seconds, qualifies budget, books the bay." },

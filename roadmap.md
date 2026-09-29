@@ -1,0 +1,3 @@
+- [x] Send Ascend application fields to the supplied Google Apps Script and show feedback.
+- [x] Apply only requested shadows, typography, fine lines, and CTA hover polish.
+- [x] Verify form interaction and visual states without sending a real lead.

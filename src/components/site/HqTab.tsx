@@ -189,14 +189,6 @@ export function HqTab({ onGo }: { onGo: (tab: "scale" | "ascend") => void }) {
       </Section>
 
       <div id="guarantee" className="relative overflow-hidden border-y border-hairline">
-        <img
-          src={textureChrome}
-          alt=""
-          loading="lazy"
-          width={1536}
-          height={864}
-          className="absolute inset-0 h-full w-full object-cover opacity-30"
-        />
         <div className="absolute inset-0 bg-ink/70" />
         <div className="relative mx-auto max-w-4xl px-6 py-24 text-center md:py-32">
           <Reveal>

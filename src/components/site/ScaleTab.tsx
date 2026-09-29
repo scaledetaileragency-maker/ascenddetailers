@@ -1,5 +1,5 @@
-import scaleLogo from "@/assets/logo-scaleceramics.png.asset.json";
-import beading from "@/assets/beading.jpg";
+
+
 import { Eyebrow, PHONE, Reveal, Section, TEL, IG, IgLink, IgRow } from "./shared";
 
 const steps = [

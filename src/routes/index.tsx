@@ -52,7 +52,7 @@ function Index() {
                 <img
                   src={hqLogo.url}
                   alt="AscendDetailers"
-                  className={`h-8 w-auto transition-opacity duration-300 md:h-10 ${
+                  className={`h-auto w-[200px] max-w-none transition-opacity duration-300 ${
                     tab === "hq" ? "opacity-100" : "opacity-40"
                   }`}
                 />
